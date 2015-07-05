@@ -1,0 +1,32 @@
+body{
+	background-image: url("file:///home/justus/HTML_CSS/myWebSite/bgimage.jpg");
+	background-position: fixed;
+	background-size: cover;
+
+}
+
+.nav-wrapper{
+	background-color: #030303;
+	color: #76ff03;
+}
+
+.nav-wrapper a{
+	
+	color: #76ff03;
+}
+
+.mybox{
+	min-height: 500px;
+	max-width: 900px;
+	border-style: solid;
+    border-color: #76ff03;
+}
+
+.logo{
+	height: 70px;
+}
+
+.logo h3{
+	color: #76ff03;
+	text-align: center;
+}
