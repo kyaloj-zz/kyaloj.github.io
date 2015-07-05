@@ -2,6 +2,8 @@ body{
 	background-image: url("bgimage.jpg");
 	background-position: fixed;
 	background-size: cover;
+	margin: 0px;
+	padding: 0px;
 
 }
 
@@ -18,7 +20,7 @@ body{
 .mybox{
 	min-height: 500px;
 	max-width: 900px;
-	border-style: solid;
+	border: solid 1px;
     border-color: #76ff03;
 }
 
@@ -32,6 +34,16 @@ body{
 }
 
 #typed{
+	color: #76ff03;
+	font-size: 40px;
+}
+
+#typed1{
+	color: #76ff03;
+	font-size: 40px;
+}
+
+#typed2{
 	color: #76ff03;
 	font-size: 40px;
 }
