@@ -1,5 +1,5 @@
 body{
-	background-image: url("bgimage.jpg");
+	background-image: url("image2.jpg");
 	background-position: fixed;
 	background-size: cover;
 	margin: 0px;
@@ -7,21 +7,26 @@ body{
 
 }
 
-.nav-wrapper{
-	background-color: #030303;
-	color: #76ff03;
+iframe{
+	background-color: transparent;
+}
+
+nav {
+	background-color: transparent;
+	text-align: center;
+	
 }
 
 .nav-wrapper a{
 	
-	color: #76ff03;
+	color: black;
 }
 
 .mybox{
 	min-height: 500px;
 	max-width: 900px;
-	border: solid 1px;
-    border-color: #76ff03;
+	
+    
 }
 
 .logo{
@@ -29,12 +34,12 @@ body{
 }
 
 .logo h3{
-	color: #76ff03;
-	text-align: center;
+	
+	text-align: left;
 }
 
 #typed{
-	color: #76ff03;
+	color: black;
 	font-size: 40px;
 }
 
@@ -44,11 +49,11 @@ body{
 }
 
 #typed2{
-	color: #76ff03;
+	color: black;
 	font-size: 40px;
 }
 
-.typed-cursor{
+/*.typed-cursor{
             opacity: 1;
             font-weight: 100;
             -webkit-animation: blink 0.7s infinite;
@@ -81,4 +86,4 @@ body{
             0% { opacity:1; }
             50% { opacity:0; }
             100% { opacity:1; }
-        }
+        }*/

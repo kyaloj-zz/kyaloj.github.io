@@ -3,7 +3,7 @@
  $(function(){
 
         $("#typed").typed({
-            strings: ["Hello friend.", "It is quite nice of you to pass by today.", "I am still building this house of mine though.", "It's coming soon!"],
+            strings: [ "It's coming soon!"],
             typeSpeed: 40,
             backDelay: 600,
             loop: false,
