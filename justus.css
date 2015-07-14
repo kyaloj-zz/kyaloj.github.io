@@ -1,5 +1,6 @@
 body{
-	background-image: url("image2.jpg");
+    /*background-image: url("image2.jpg");*/
+
 	background-position: fixed;
 	background-size: cover;
 	margin: 0px;
@@ -51,6 +52,16 @@ nav {
 #typed2{
 	color: black;
 	font-size: 40px;
+}
+
+.grid-example{
+    background-color: red;
+}
+
+.coverimages{
+    height: 100%;
+    width: 100%;
+    
 }
 
 /*.typed-cursor{
