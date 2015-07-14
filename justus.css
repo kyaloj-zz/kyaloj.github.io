@@ -36,7 +36,7 @@ nav {
 
 .logo h3{
 	
-	text-align: left;
+	text-align: center;
 }
 
 #typed{
@@ -61,7 +61,7 @@ nav {
 .coverimages{
     height: 100%;
     width: 100%;
-    
+
 }
 
 /*.typed-cursor{
