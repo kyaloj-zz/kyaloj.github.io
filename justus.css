@@ -6,7 +6,7 @@ body{
 	margin: 0px;
 	padding: 0px;
 	color: white;
-	padding-top: 8%;
+	padding-top: 4%;
 
 }
 
@@ -33,8 +33,8 @@ div#one{
 }
 
 .mybox{
-	min-height: 600px;
-	max-width: 900px;
+	min-height: 400px;
+	max-width: 1000px;
 }
 
 .logo{
