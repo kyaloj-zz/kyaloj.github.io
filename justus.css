@@ -25,19 +25,16 @@ nav, nav ul a{
 
 canvas#buyers{
 	width: 100%;
-	height: 300px;
+	height: 280px;
 }
 
-/*.nav-wrapper a{
-
-	color: black;
-}*/
+div#one{
+	height: 250px;
+}
 
 .mybox{
-	min-height: 500px;
+	min-height: 600px;
 	max-width: 900px;
-
-
 }
 
 .logo{
@@ -72,6 +69,40 @@ canvas#buyers{
     height: 100%;
     width: 100%;
 
+}
+
+
+.section-title{
+  text-align: center;
+  width: 100%;
+  position: relative;
+  display: block;
+  margin: 0;
+}
+
+.section-title span{
+  background: #1C1C1C;
+  border: 2px solid #5cb85c;
+  color: #5cb85c;
+  display: inline-block;
+  font-size: 22px;
+  padding: 2px 20px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  z-index: 10;
+}
+
+.section-title:after {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+  background: #5cb85c;
 }
 
 /*.typed-cursor{

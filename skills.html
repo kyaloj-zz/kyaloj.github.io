@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+     <title>Justus.work</title>
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="justus.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src='Chart.min.js'></script>
+    </head>
+
+    <body>
+       <div class="container">
+         <div class="row">
+            <div class="col s12 m12 l12" id="one">
+                <canvas id="buyers"></canvas>
+                  <div id="legen" class="chart-legend"></div>
+               </div>
+        </div>
+        <!-- <h2 class="section-title"><span>Working Experience</span></h2> -->
+       </div>
+
+
+      <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="materialize.min.js"></script>
+        <script type="text/javascript" src="justus.js"></script>
+        <script src="typed.js" type="text/javascript"></script>
+        <script>
+              // line chart data
+              var buyerData = {
+                  labels : ["HTML/CSS","jquery","Ruby on Rails", "Mysql","Android","UX","Communication","Team-work"],
+
+
+                  datasets : [
+                  {
+
+                      type: "bar",
+                      fillColor : "rgba(0, 255, 0,0.9)",
+                      strokeColor : "#4D4D4D",
+                      pointColor : "#4D4D4D",
+                      pointStrokeColor : "#fff",
+                      pointHighlightFill: "#fff",
+                      pointHighlightStroke: "rgba(220,220,220,1)",
+
+                      data : [80, 60, 70, 65, 50,70, 80,  90]
+                  }
+              ]
+              }
+              // get line chart canvas
+              var buyers = document.getElementById('buyers').getContext('2d');
+
+
+              // draw line chart
+           var myChart = new Chart(buyers).Bar(buyerData, {
+  legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].strokeColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>"
+
+           });
+              document.getElementById('legen').innerHTML = myChart.generateLegend();
+
+          </script>
+
+    </body>
+  </html>
